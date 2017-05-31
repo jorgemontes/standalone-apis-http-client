@@ -25,7 +25,7 @@ public class Client {
 		connection.setRequestMethod("POST");
 		connection.setDoOutput(true);
 		connection.setRequestProperty("Content-Type", "text/xml;charset=UTF-8");
-		connection.setRequestProperty("SOAPAction", "listOrders");
+		connection.setRequestProperty("SOAPAction", "purchaseOrder");
 		connection.setRequestProperty("Accept-Encoding", "gzip,deflate");
 		connection.setRequestProperty("Host", "localhost:7001");
 		connection.setRequestProperty("User-Agent", "Apache-HttpClient/4.1.1 (java 1.5)");
